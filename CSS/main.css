@@ -1,0 +1,43 @@
+*{
+    margin-top:0;
+    padding: 0;
+}
+.name
+{
+    color: black;
+    float:left;
+    left:15px;
+    font-size: 40px;
+    margin-left: 30px;
+}
+.top
+{
+    background-image: url(../photos/back.jpg);
+    
+    background-size: cover;
+    height: 1020px;
+    margin-top:-200px;
+}
+.main
+{
+    text-align: center;
+    font-size: 80px;
+    color: white;
+    font-weight: bold;
+    margin-top: 200px;
+    margin-bottom: 130px;
+
+}
+.join
+{
+    border: none;
+    border-radius: 15px;
+    background:none;
+    color: white;
+    border:3px solid white;
+    padding:15px 25px;
+    font-weight: bold;
+    font-size: 25px
+}
+
+/*footer*/

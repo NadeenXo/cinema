@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="cinescope log in page">
+	<title>log in</title>
+	<link rel="stylesheet" type="text/css" href="../CSS/styles.css">
+	<link rel="stylesheet" type="text/css" href="../CSS/navbar.css">
+	<link rel="stylesheet" type="text/css" href="../CSS/lastf.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<header>
+   	<!-- nav-->
+
+    
+		<div class="unav">
+			
+
+			<ul class="nav">
+				
+
+			  <a href="main.html"> <img src="../photos/lo.png"></a>
+			
+				<li><a href="main.html" target="_self">Log Out</a></li>
+                <li><a href="payment.html" target="_blank">Book now!</a></li>
+                <li><a href="nowShowing.html">Now Showing</a></li>
+                <li><a href="comingSoon.html">Coming soon</a></li>
+                <li><a href="main.html">Home</a></li>
+               
+                
+            
+            </ul>
+        </div> 
+        <!-- end of nav -->
+<header>	
+	<div class="center">   <!--styles.css-->
+	<form>
+		<fieldset>
+			<legend><img src="../photos/logo1.png" height="45px" width="150px" alt="cinescope"></legend>
+	<div class="evlogin">
+		<label for="email" >E-mail: </label>
+	    <input type="email" id="email" placeholder="example@anymail.com" title="enter your email" required="" autocomplete="">
+
+	    <label for="pass" >Password:</label>
+        <input type="Password" id="pass" title="enter your Password" pattern="(@.*+=\d[A-Z])(@.*+=\d[a-z]){8,20}" placeholder="ex:any@thing123" required="" >
+        <div class="more">
+        <input type="checkbox" id="checkbox" name="Remember" title="Remember me" checked="" >Remember me
+        <a id="forget" href="" title="click here">Forget password? </a>
+        </div>
+        <br>
+        <input type="submit" name="submit" value="log in" title="click to login" onclick = "location.href = 'payment.html'" target="_self">
+        <button class="cancel" title="click to close"><a href="main.html">Cancel</a> </button><br>
+        <h5> "If you don't have an account, please <a href="signup.html" title="press to signup" ><strong>Sign up</strong> </a> now."
+        </h5>
+
+        
+    </div>
+	</fieldset>
+    </form>
+    </div>
+       <!-- footer -->
+      <footer>
+
+       <div class="footer">
+
+		<div class="container">
+
+			<div class="logo">     
+
+				<img src="../photos/lo.png"><br><br>
+				<h3 >About Us</h3><br>
+				<p>Owned and operated by N&Y Cinemas, CINESCOPE Cinemas is the cinema arm of N&Y, the leading shopping mall, retail and leisure pioneer across the Middle East and North Africa.</p><br>
+				<div class="social"> 
+					<a href="https://www.facebook.com/Cinescope-107777474199924/" class="fa fa-facebook" target="_blank"></a>&nbsp;
+					<a href="https://twitter.com/Nevein25?s=09" class="fa fa-twitter" target="_blank"></a>
+		       </div>
+
+
+			</div>
+
+			<div class="qLinks">  
+
+				<ul style="list-style-type: none;"><h3 >Links</h3><br><br>
+                                    <li ><a class="" href="c try.html" target="_blank">About Us</a></li>
+                                    
+                                    
+                                    <li ><a class="" href="privacy.html" target="_blank">Privacy Policy</a></li>
+                                    <li ><a class="" href="address.html "target="_blank" >Find Us</a></li>
+			               </ul>   
+
+			</div>
+
+
+
+
+		   <div class="qContact">     
+
+		   	<h3>Contact us</h3>
+				<br>
+				<form>
+					<input class="con" type="email" name="email" placeholder="Enter your email" >
+					
+					<textarea class="con mes"   name="message"  placeholder="Enter your message" cols="22" rows="3"></textarea>
+					
+					<button class="but" type="submit" >Send</button>
+				</form>
+
+
+		   </div>
+			
+
+		</div>	
+		
+		<div class="copyRight">&copy; All copyrights reserved for Cinescope.com</div>
+
+	</div>
+</footer> 
+<script type="text/javascript">
+		function myfn(){
+			alert("Welcome to cinescope!..")
+		}
+</script>	
+</body>
+</html>

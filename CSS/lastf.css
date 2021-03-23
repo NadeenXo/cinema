@@ -1,0 +1,171 @@
+*{
+	margin-left:0px;
+	margin-right:0px;
+	margin-bottom:0px;
+	margin: 0; 
+	padding: 0; 
+	font-family: Arial, Helvetica, sans-serif;
+}
+.footer{
+	
+	
+	margin-top:-1px; 
+	width: 100%;
+	
+}
+.container  {
+	
+	height: 290px;
+	display:flex;
+}
+.container div {
+	
+	flex:1;
+}
+/* logo */
+.logo{
+	background-color: black;
+	
+}
+
+.footer .container .logo img{
+	width:70%;
+	margin:-50px;
+}
+.footer .container .logo h3{
+	color:#ea1509;
+	margin-top:0px;
+	color: #ea1509;
+	margin-left:20px;
+}
+.footer .container .logo p{
+	color:#d3d3d3;
+	margin-top:0px;
+	margin-left:20px;
+	font-size:13px;
+	width:320px;
+	line-height:1.4em;
+}
+
+	/*social*/
+	.social{
+		margin-left:20px;
+	}
+
+	.fa {
+	  padding: 10px;
+	 
+      font-size: 30px;
+	  width: 12px;
+	  height:12px;
+	  text-align: center;
+	  text-decoration: none;
+	}
+    
+	.fa:hover {
+	  opacity: 0.7;
+	}
+
+	
+	
+	.fa-facebook {
+	  background: lightgrey;
+	  color: black;
+	}
+
+	.twitter:hover {
+      opacity: 0.7;
+    }
+
+	.fa-twitter {
+	  background: lightgrey;
+	  color: black;
+	}
+	/*social*/
+/* end of logo */
+/*links*/
+.qLinks{
+	background-color: black;
+
+}
+ .footer .container .qLinks h3{
+	color: #ea1509;
+	margin-top:30px;
+}
+
+
+ .footer .container .qLinks ul a{
+	display: block;
+	margin-bottom: 10px;
+	color: #d3d3d3;	
+	line-height: 40px;
+	transition: all .3s;
+	text-decoration: none;
+	font-size:18px;
+}
+.footer .container .qLinks ul a:hover{
+	transition: all .3s;
+	color: #ea1509;
+	margin-left: 10px;
+}
+	/*end of links*/
+
+
+/* contact*/
+.qContact{
+	background-color: black;
+	
+}
+
+.footer .container .qContact h3{
+
+	color: #ea1509;
+	margin-top:30px;
+
+}
+
+.footer .container .qContact .con{
+	display: block;
+	background-color: #272727fa;
+	color:#bcbdbd;
+	margin-bottom: 10px;
+	padding: .9rem 1.4rem;
+	border: 1px solid #888;
+	border-radius: .4em;
+	resize: none;
+	
+
+}
+.footer .container .qContact .mes{
+	overflow: auto;
+}
+
+/**/
+button {
+    
+    border:none;
+    padding: 0 20px;
+    font: bold 12px/25px Arial, sans-serif;
+    border-radius:5px;
+	  background: lightgrey;
+	  color: black;
+}
+
+button:hover {
+      opacity: 0.7;
+    }
+
+	
+	
+/**/
+
+
+.copyRight{
+	background-color: #262626;
+	color: #686868;
+	height: 30px;
+	width:100%;
+	padding-top: 10px;
+	text-align: center;
+	left: 0px;
+}

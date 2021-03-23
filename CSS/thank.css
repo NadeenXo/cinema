@@ -1,0 +1,19 @@
+body
+{
+    background: url(../photos/payment-gb.jpg);
+    background-size: cover;
+}
+.content
+{
+    text-align: center;
+}
+.success
+{
+    margin-top: 275px;
+    color: aliceblue;
+    font-size: 100px;
+}
+h2
+{
+    color: aliceblue;
+}

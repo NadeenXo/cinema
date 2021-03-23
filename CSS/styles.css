@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+
+body{
+	font-family: "nunito";
+	background-image: url("../photos/ad.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #38474e;
+	font-weight: bold;
+
+}
+.evlogin{
+	
+	padding:15px;
+}
+.evsignup{
+	
+	padding:10px;
+}
+div.center{
+	
+	width: 360px;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 300px;
+}
+fieldset{
+	border:2px solid darkred;
+	background-color: white;
+
+}
+legend{
+	text-align: center;
+	border-radius: 100px;
+	background-color: darkred;
+	color: white;
+	opacity: .9;
+}
+input,label{
+	display: block;
+	padding: 5px;	
+	
+
+}
+#uname, #pass,#email {
+	width: 300px;
+	height: 20px;
+}
+select{
+	height: 30px;
+	width: 160px;
+}
+#checkbox{
+	display: inline-block;
+}
+input[type=submit], input[type=reset] {
+	display: inline-block;
+	float: left;
+	margin-left: 10px;
+	margin-right: 50px;
+	padding: 8px;
+	width: 100px;
+	font-weight: bold;
+	border-radius: 20px;
+	background-color: darkred;
+	color: white;
+	opacity: .9;
+}
+a{
+	color: darkred;
+	text-decoration: none;
+}
+a:hover{
+	color:blue;
+}
+button a:hover{
+	color: white;
+}
+button.cancel{
+	padding: 8px;
+	width: 100px;
+	font-weight: bold;
+	border-radius: 20px;
+	background-color: darkred;
+	opacity: .9;
+}
+button.cancel a{
+	color: white;
+	text-decoration: none;
+}
+ul li input{
+	float: left;
+}
+.more{
+	font-size: small;
+	padding: 5px;
+	margin-right: 10px;
+	color: darkred;
+	display: block;
+}
+#forget{
+	float: right;
+}
+.all{
+	color: black;
+	display: flex;
+
+}
